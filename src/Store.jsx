@@ -1,10 +1,39 @@
 		
+
+
+
+// import { configureStore } from "@reduxjs/toolkit";
+// import myreducer from "./ColorSlice";
+
+// const store = configureStore({
+//     reducer:{
+//         mycolor:myreducer,
+//     }
+// })
+// export default store;
+
+// ==========================================================================
+
+
 import { configureStore } from "@reduxjs/toolkit";
-import todoReducer from "./todoSlice";
+import myans from "./CounterSlice"
 
 const store=configureStore({
     reducer:{
-        todolist:todoReducer,
+        mycounter:myans,
     }
 })
 export default store;
+
+// ================================================================================
+
+// import { configureStore } from "@reduxjs/toolkit";
+// import todoReducer from "./todoSlice";
+
+// const store=configureStore({
+//     reducer:{
+//         todo:todoReducer,
+//     }
+// })
+// export default store;
+
